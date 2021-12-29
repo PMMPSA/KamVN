@@ -1,0 +1,12 @@
+---
+- world: pvp
+  x: 273
+  "y": 76
+  z: 246
+  name: pvp
+- world: cauca
+  x: 251
+  "y": 64
+  z: 256
+  name: cauca
+...

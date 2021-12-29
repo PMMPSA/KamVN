@@ -1,0 +1,181 @@
+---
+reset: false
+version: 1
+notfound:
+  plugin: §cThis plugin will not work, Please install the plugin %1
+  libraries: §cLibraries %1 not found, Please download this plugin to as .phar
+plugininfo:
+  name: §a§l%1
+  version: §fVersion %1
+  author: §fList of creators %1
+  description: §fDescription of the plugin. §eis a plugin free. If you redistribute
+    it, please credit the creator. :)
+  facebook: §fFacebook %1
+  youtube: §fYoutube %1
+  website: §fWebsite %1
+  discord: §fDiscord %1
+playerquest:
+  info:
+    error1: '§cError: %1'
+    text1: §e§lNhiệm vụ §b%1
+    text2: '§c§lTiến độ : §a%1/%2'
+    text3: '§b§l Mô tả : %1'
+    text4: '§f§lPhần thưởng: §b%1%2'
+questdata:
+  info:
+    text1: §b§l%1
+    text2: '§e§lMô tả : %1'
+    text3: '§a§lSố lượng cần làm : [ §a%1 ]'
+    text4: '§d§lPhần Thưởng : §b%1'
+questmanager:
+  eventlist:
+    breakblock: Phá vỡ khối
+    placeblock: Đặt khối
+    kill_entity: Giết sinh vật
+    kill_player: Giết người chơi
+    trading:
+      text1: Thương mại
+      text2: Vui lòng giữ vật phẩm.
+    online: Online
+  start:
+    complete: §d%1 §fhoàn thành nhiệm vụ §e%2 §fand có giải thưởng %3
+command:
+  consoleError: '§cSorry: commands can be typed only in the game.'
+  permissionError: '§cSorry: You cannot type this command.'
+  sendHelp:
+    empty: §eYou can see more commands by typing /quest help
+  info:
+    usage: /quest info
+    description: §fCredit of the plugin creator
+  list:
+    usage: /quest list
+    description: §fSee all available quests.
+    error1: §cYou don't have quests
+  remove:
+    usage: /quest remove <QuestNname>
+    description: §fDelete quest
+    error1: '§cTry: %1'
+    error2: §cYou don't have quests
+    error3: §cQuest name not found %1
+    complete: You have successfully deleted quest %1.!
+  add:
+    usage: /quest add <PlayeName> <QuestName>
+    description: §fAdded quests for players
+    error1: '§cTry: %1'
+    error2: §cPlayer name not found or player not online
+    error3: §cQuest name not found %1
+    error4: §cYou have completed this quest.
+    error5: §cNeed to use items to exchange. %1
+    complete1: Player §b%1 §freceived quest §a%2
+    complete2: Bạn đã nhận được nhiệm vụ §a%1
+  data:
+    usage: /quest data create|remove|list|setlimit|addlimit
+    error1: '§cTry: %1'
+    event:
+      usage: /quest data event
+      description: §fSee various events
+      complete: §fEvent §b%1 §f%2
+    create:
+      usage: /quest data create <NameTheQuest> <Max> <Event> <DescriptiveText> <AwardMessage>
+        <CommandAward>
+      description: §fCreate a quest
+      error1: '§cTry: %1'
+      error2: §cQuest name already exists.
+      error3: §c<Max> Please write as numbers.
+      error4: §cEvent not found %1
+      error5: §cPlease hold item.
+      complete1: Quest §a%1 §fevent §b%2 (%3) §fhas created!
+      complete2: Quest §a%1 §fevent §b%2 (%3) §fhas created! By using item §d%4
+    remove:
+      usage: /quest data remove <Quest name>
+      description: §fDelete quest
+      error1: '§cTry: %1'
+      error2: §cQuest name not found %1
+      complete: Successfully removed quest %1!
+    list:
+      usage: /quest data list
+      description: §fSee a list of quests.
+      error1: §cNo quests
+      complete: List of all quests §b%1
+    setlimit:
+      usage: /quest data setlimit <QuestName>
+      description: §fRestricted to players only completing this quest once
+      error1: '§cTry: %1'
+      error2: §cQuest name not found %1
+      complete: Quest §a%1 §fsuccessfully set limit
+    addlimit:
+      usage: /quest data addlimit <QuestName> <PlayerName>
+      description: §fAdd players' names to that limited quest.
+      error1: '§cTry: %1'
+      error2: §cQuest name not found %1
+      error3: §cThis quest not limited
+      error4: §cThis player name already exists.
+      complete: Quest §a%1 §fhas add player §e%2 §fto limited quests
+    slapper_get:
+      usage: /quest data slapper_get <QuestName>
+      description: §fCreate a slapper add quest to player
+      error1: '§cTry: %1'
+      error2: §cQuest name not found %1
+form:
+  menu:
+    button1: §edata
+    button2: §fYou have all (§a%1§f) quest
+    error1: |-
+      §cAn error has occurred
+      §eYou are not allowed to use
+    error2: |-
+      §cAn error has occurred
+      §eYou don't have quests
+  edit:
+    button1: §c[Delete quest]
+  remove:
+    content: §fAre you sure? To remove quests §a%1
+    button1: §aOk
+    button2: §cCancel
+  data:
+    menu:
+      button1: §aCreate a quest
+    event:
+      content: §ePlease select an event.
+    create:
+      input1: §eNameTheQuest
+      input2: §eMax
+      input3: §eDescriptive Text
+      input4: §eAward Message
+      input5: §eCommand Award
+      error1: |-
+        §cAn error has occurred
+        §e<QuestName> Please enter the name of the quest.
+      error2: |-
+        §cAn error has occurred
+        §e<QuestName> Quest name %1 already exists
+      error3: |-
+        §cAn error has occurred
+        §e<Max> Required and please write in numbers
+      error4: |-
+        §cAn error has occurred
+        §e<DescriptiveText> Need to put
+      error5: |-
+        §cAn error has occurred
+        §e<AwardMessage> Need to put
+      error6: |-
+        §cAn error has occurred
+        §e<CommandAward> Need to put
+      error7: |-
+        §cAn error has occurred
+        §ePlease hold item.
+    edit:
+      button1: §fEdit quest
+      button2: §fLimit player do complete this quest once.
+      button3: §fReset limit
+      button4: §fDelete limit
+      button5: §fCreate a slapper add quest to player
+      button6: §c[Delete quest]
+      resetlimit:
+        complete: Quest §a%1 §fhas reset limit successfully
+      unlimit:
+        complete: Quest §a%1 §fhas delete limit successfully
+questutils:
+  makeslapper:
+    complete: §aCreate a slapepr successfully!
+...

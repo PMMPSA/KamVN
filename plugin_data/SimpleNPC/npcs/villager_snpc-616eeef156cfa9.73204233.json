@@ -1,0 +1,20 @@
+{
+    "version": "2.1.7",
+    "identifier": "villager_snpc-616eeef156cfa9.73204233",
+    "type": "villager_snpc",
+    "nametag": "\u00a7b\u00a7lTh\u1ee3 c\u00e2u c\u00e1",
+    "world": "cauca",
+    "enableRotate": true,
+    "showNametag": true,
+    "scale": 1,
+    "commands": [
+        "say Bao L\u00e2u Th\u00ec C\u00e2u \u0110\u01b0\u1ee3c 1 T\u1ec9 Con C\u00e1 . \u00a7cTr\u1ea3 l\u1eddi ?"
+    ],
+    "position": [
+        252.528,
+        64.5,
+        260.3507,
+        228.48757934570312,
+        33.5609130859375
+    ]
+}

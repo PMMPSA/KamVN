@@ -1,0 +1,21 @@
+---
+show-messages-onjoin: true
+force-hub: false
+enable-hub-message: true
+force-spawn: false
+enable-spawn-message: true
+enable-aliases: true
+teleport-on-death: 1
+hub-server:
+  enabled: false
+  name: External Server
+  host: 127.0.0.1
+  port: 19132
+hub:
+  world: LobbySummer
+  X: 8.3517
+  "Y": 103.4597
+  Z: 35.1299
+  Yaw: 176.61724853515625
+  Pitch: 73.07327270507812
+...

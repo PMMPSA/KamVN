@@ -1,0 +1,9 @@
+---
+#Time in seconds
+update-players-interval: 30
+
+#Format: "ip:port"
+servers-to-query:
+- "de1.qloxhost.xyz:33114"
+- "usa2.qloxhost.xyz:55170"
+...

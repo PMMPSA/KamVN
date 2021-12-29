@@ -1,0 +1,24 @@
+name: Detu
+version: 4.0.0 BETA 2.0.9
+api: 3.0.0
+main: CLADevs\Minion\Main
+author: CLADevs || GreenJajot
+
+commands:
+  givedetu:
+    usage: "/givedetu"
+    permission: givedetu.command
+    description: "Lệnh Để Lấy Đệ Tử Cho Người Chơi"
+  detusellmessage:
+    usage: "/detusellmessage"
+    permission: nosell.command
+    description: "Tắt Chat Khi Sell Của Đệ Tử"
+  tatketnoi:
+    description: "Dùng Để Tắt Kết Nối Rương của Đệ"
+permissions:
+  givedetu.command:
+    default: op
+  nosell.command:
+    default: false
+  detu.openall:
+    default: op

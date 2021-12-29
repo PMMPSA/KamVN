@@ -1,0 +1,8 @@
+name: MenuUIVHPIG
+api: 3.0.0
+main: menu\Main
+version: 1.0.0
+author: PIG
+commands:
+  menu:
+   description: Mở Giao Diện Menu

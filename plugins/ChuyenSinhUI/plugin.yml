@@ -1,0 +1,15 @@
+name: ChuyenSinhUI
+author: YTBJero [Edit by NCD, Ghast, CurlliestDrake66]
+version: 3.0.0
+api: 3.0.0
+main: Reincarnated\Main
+editor: VanhLXYTB
+
+commands:
+  chuyensinh:
+     description: Lệnh Để Mở Menu Chuyển Sinh
+     aliases:
+     - cs
+     - chuyensinhmenu
+     - menuchuyensinh
+     default: true

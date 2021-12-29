@@ -1,0 +1,7 @@
+name: KhoeItemHand
+main: KhoeItemHand\Main
+version: 1.0.0
+api: 3.0.0
+author: S2TwKen
+load: STARTUP
+description: Khoe Vật Phẩm Trên Tay

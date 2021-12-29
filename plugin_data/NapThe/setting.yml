@@ -1,0 +1,13 @@
+#trumthe.vn | thesieure.com | doithengay.com | naptudong.com
+driver: "thesieure.com"
+
+partner_key: "4165875c76c56985a45dd2498833f258" #Do web cung cấp
+
+partner_id: "6697534361" #Do web cung cấp
+
+ratio: 1000 #1.000VND = 1 xu
+
+bonus: 1.5 # Khuyen mai 50%
+
+commands:
+  - givecoin {player} {money}

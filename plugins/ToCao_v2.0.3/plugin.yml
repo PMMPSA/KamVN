@@ -1,0 +1,12 @@
+name: ToCao
+main: ToCao\PIG\Main
+api:
+ - 3.0.0
+ - 3.2.0
+author: PIG
+version: 2.0.3
+descriptions: Tố Cáo
+commands:
+ tocao:
+  description: "Tố Cáo"
+  default: true

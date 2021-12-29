@@ -1,0 +1,13 @@
+---
+"delay": 20 #180 seconds = 3 minutes
+"levelname": "world"
+
+##Farm
+"Sugarcane": true
+"Cactus": true
+"Red Mushroom": true
+"Brown Mushroom": true
+"Melon": true
+"Pumpkin": true
+
+---

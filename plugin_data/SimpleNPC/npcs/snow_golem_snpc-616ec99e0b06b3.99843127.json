@@ -1,0 +1,20 @@
+{
+    "version": "2.1.7",
+    "identifier": "snow_golem_snpc-616ec99e0b06b3.99843127",
+    "type": "snow_golem_snpc",
+    "nametag": "\u00a7e\u00a7l\u2747 Khu C\u00e2u C\u00e1 \u2747",
+    "world": "LobbySummer",
+    "enableRotate": true,
+    "showNametag": true,
+    "scale": 1,
+    "commands": [
+        "rca {player} mw tp cauca"
+    ],
+    "position": [
+        14.8641,
+        102.0625,
+        35.5415,
+        91.80352783203125,
+        8.902740478515625
+    ]
+}

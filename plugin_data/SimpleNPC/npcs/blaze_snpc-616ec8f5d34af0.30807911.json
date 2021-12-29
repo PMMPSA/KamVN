@@ -1,0 +1,20 @@
+{
+    "version": "2.1.7",
+    "identifier": "blaze_snpc-616ec8f5d34af0.30807911",
+    "type": "blaze_snpc",
+    "nametag": "\u00a7b\u00a7l\u2747 Khu PVP \u2747",
+    "world": "LobbySummer",
+    "enableRotate": true,
+    "showNametag": true,
+    "scale": 1,
+    "commands": [
+        "rca {player} warp pvp"
+    ],
+    "position": [
+        2.5948,
+        102.0625,
+        35.4158,
+        270.42730712890625,
+        6.793121337890625
+    ]
+}

@@ -1,0 +1,31 @@
+0:
+  button: "§l§c•§9 Ngân Hàng §c•"
+  command: "nganhang"
+
+1:
+  button: "§l§c•§9 Cường Hoá §c•"
+  command: "cuonghoa"
+2:
+  button: "§l§c•§9 Shop §c•"
+  command: "shop"
+3:
+  button: "§l§c•§9 Chợ Đen §c•"
+  command: "choden"
+4:
+  button: "§l§c•§9 Mua Lồng §c•"
+  command: "mualong coin"
+5:
+  button: "§l§c•§9 Mua Rank §c•"
+  command: "muarank"
+6:
+  button: "§l§c•§9 Cây Phát Tài §c•"
+  command: "cay"
+7:
+  button: "§l§c•§9 Tích Lũy §c•"
+  command: "tichluy"
+8:
+  button: "§l§c•§9 Buy EC VIP §c•"
+  command: "buyecvip"
+9:
+  button: "§l§c•§9 Chuyển Sinh §c•"
+  command: "chuyensinh"

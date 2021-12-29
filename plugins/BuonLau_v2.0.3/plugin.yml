@@ -1,0 +1,10 @@
+name: BuonLau
+main: BL\Main
+version: 2.0.3
+api: 3.0.0
+author: PIG
+
+commands:
+    buonlau: 
+        description: Buôn Lậu
+        

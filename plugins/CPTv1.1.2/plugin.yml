@@ -1,0 +1,10 @@
+---
+name: cayphattai
+author: PIG
+main: cpt\Main
+api: 3.0.0
+version: 1.1.1
+commands:
+ cay:
+  description: "Hệ Thống Cây Phát Tài"
+...

@@ -1,0 +1,14 @@
+name: TempBanUI
+main: SonsaYT\TempBanUI\Main
+api: [3.0.0, 4.0.0]
+version: 2.3
+author: SonsaYT
+
+commands:
+ tempoban:
+  description: "• §e Ban Player Khỏi Server •"
+  permission: use.tban
+  
+ tempocheck:
+  description: "• §e Xem danh sách những người bị ban •"
+  permission: use.tcheck

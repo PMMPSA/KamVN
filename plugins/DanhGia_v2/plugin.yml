@@ -1,0 +1,11 @@
+name: DanhGia
+version: 2.0
+main: Vbee\DanhGia\Main
+api: 3.0.0
+author: PIG
+commands:
+  danhgia:
+    description: "Đánh Giá"
+    default: true
+    
+    #Tông Môn Cái Thằng Edit Plugin Tao Code Bởi Vbee ( Futani ) Ok

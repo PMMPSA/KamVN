@@ -1,0 +1,101 @@
+# - Rank Cost Configuration -
+
+group1.cost: 3
+group2.cost: 5
+group3.cost: 7
+group4.cost: 10
+group5.cost: 15
+group6.cost: 20
+group7.cost: 25
+group8.cost: 30
+
+# -= Rank Purchase / Fail Configuration =-
+
+group1.complete: Bạn đã mua§l§c Vιᴘ§eI
+group1.failed: §cBạn không đủ §epoint §cđể mua§l§c Vιᴘ§eI
+
+group2.complete: Bạn đã mua§l§c Vιᴘ§eII
+group2.failed: §cBạn không §ePoint §cđể mua§l§c Vιᴘ§eII
+
+group3.complete: Bạn đã mua mua§l§c Vιᴘ§eIII
+group3.failed: §cBạn không đủ §ePoint §cđể mua§l§c Vιᴘ§eIII
+
+group4.complete: Bạn đã mua§l§c Vιᴘ§eIV
+group4.failed: §cBạn không đủ §ePoint §cđể mua§l§c Vιᴘ§eIV
+
+group5.complete: Bạn đã mua§l§c Vιᴘ§eV
+group5.failed: §cBạn không đủ §ePoint §cđể mua§l§c Vιᴘ§eV
+
+group6.complete: Bạn đã mua§l§c Vιᴘ§eVI
+group6.failed: §cBạn không đủ §ePoint §cđể mua§l§c Vιᴘ§eVI
+
+group7.complete: Bạn đã mua§l§c Vιᴘ§eVII
+group7.failed: §cBạn không đủ §ePoint §cđể mua§l§c Vιᴘ§eVII
+
+group8.complete: Bạn đã mua§l§c Vιᴘ§eVIII
+group8.failed: §cBạn không đủ §ePoint §cđể mua§l§c Vιᴘ§eVIII
+
+# -= Content Configuration -=
+
+group1.info: §l§fBạn muốn mua gói §l§cVιᴘ§eI §fvới giá §e3 coin§f không ?
+group2.info: §l§fBạn muốn mua gói §l§cVιᴘ§eII §fvới giá §e5 coin §fkhông ?
+group3.info: §l§fBạn muốn mua gói §l§cVιᴘ§eIII §fvới giá §e7 coin §fkhông ?
+group4.info: §l§fBạn muốn mua gói §l§cVιᴘ§eIV §fvới giá §e10 coin §fkhông ?
+group5.info: §l§fBạn muốn mua gói §l§cVιᴘ§eV §fvới giá §e15 coin§f không ?
+group6.info: §l§fBạn muốn mua gói §l§cVιᴘ§eVI §fvới giá §e20 coin§f không ?
+group7.info: §l§fBạn muốn mua gói §l§cVιᴘ§eVII §fvới giá §e25 coin§f không ?
+group8.info: §l§fBạn muốn mua gói §l§cVιᴘ§eVIII §fvới giá §e30 coin§f không ?
+
+# -= Others Configuration =-
+ 
+title.muarank: §l§e⋆§d ShopRank§e ⋆
+
+othermsg1complete.txt: §l§c Vιᴘ§eI
+othermsg2complete.txt: §l§c Vιᴘ§eII
+othermsg3complete.txt: §l§c Vιᴘ§eIII
+othermsg4complete.txt: §l§c Vιᴘ§eIV
+othermsg5complete.txt: §l§c Vιᴘ§eV
+othermsg6complete.txt: §l§c Vιᴘ§eVI
+othermsg7complete.txt: §l§c Vιᴘ§eVII
+othermsg8complete.txt: §l§c Vιᴘ§eVIII
+
+othermsg1fail.txt: không mua được§l§c Vιᴘ§eI
+othermsg2fail.txt: không mua được§l§c Vιᴘ§eII
+othermsg3fail.txt: không mua được§l§c Vιᴘ§eIII
+othermsg4fail.txt: không mua được§l§c Vιᴘ§eIV
+othermsg5fail.txt: không mua được§l§c Vιᴘ§eV
+othermsg6fail.txt: không mua được§l§c Vιᴘ§eVI
+othermsg7fail.txt: không mua được§l§c Vιᴘ§eVII
+othermsg8fail.txt: không mua được§l§c Vιᴘ§eVIII
+
+purchase1.title: §aCảm Ơn Bạn Đã Sử Dụng Mua Rank ! 
+purchase2.title: §aCảm Ơn Bạn Đã Sử Dụng Mua Rank ! 
+purchase3.title: §aCảm Ơn Bạn Đã Sử Dụng Mua Rank ! 
+purchase4.title: §aCảm Ơn Bạn Đã Sử Dụng Mua Rank ! 
+purchase5.title: §aCảm Ơn Bạn Đã Sử Dụng Mua Rank ! 
+purchase6.title: §aCảm Ơn Bạn Đã Sử Dụng Mua Rank ! 
+purchase7.title: §aCảm Ơn Bạn Đã Sử Dụng Mua Rank ! 
+purchase8.title: §aCảm Ơn Bạn Đã Sử Dụng Mua Rank ! 
+
+group1.name:  §l§cVιᴘ§eI§f - 3 ngày
+group2.name:  §l§cVιᴘ§eII§f - 5 ngày
+group3.name:  §l§cVιᴘ§eIII§f - 7 ngày 
+group4.name:  §l§cVιᴘ§eIV§f - 10 ngày
+group5.name:  §l§cVιᴘ§eV§f - 15 ngày
+group6.name:  §l§cVιᴘ§eVI§f - 20 ngày
+group7.name:  §l§cVιᴘ§eVII§f - 25 ngày
+group8.name:  §l§cVιᴘ§eVIII§f - 30 ngày
+
+# Features Configuration
+# Shows a list of features of the rank. Edit it here
+
+group1.features: §l§f- Chúc mừng bạn đã mua§c Vιᴘ§eI§f Thành công!! chúc bạn chơi vui vẻ
+group2.features: §l§f- Chúc mừng bạn đã mua§c Vιᴘ§eII§f Thành công!! chúc bạn chơi vui vẻ
+group3.features: §l§f- Chúc mừng bạn đã mua§c Vιᴘ§eIII§f Thành công!! chúc bạn chơi vui vẻ
+group4.features: §l§f- Chúc mừng bạn đã mua§c Vιᴘ§eIV§f Thành công!! chúc bạn chơi vui vẻ
+group5.features: §l§f- Chúc mừng bạn đã mua§c Vιᴘ§eV§f Thành công!! chúc bạn chơi vui vẻ
+group6.features: §l§f- Chúc mừng bạn đã mua§c Vιᴘ§eVI§f Thành công!! chúc bạn chơi vui vẻ
+group7.features: §l§f- Chúc mừng bạn đã mua§c Vιᴘ§eVII§f Thành công!! chúc bạn chơi vui vẻ
+group8.features: §l§f- Chúc mừng bạn đã mua§c Vιᴘ§eVIII§f Thành công!! chúc bạn chơi vui vẻ
+
+...

@@ -1,0 +1,92 @@
+---
+version: 1.4.10-6
+default-factions-plugin: PiggyFactions
+enable-multiworld-chat: false
+groups:
+  Admin:
+    chat: §l§e[§a{fac_name}§e]§c Ａ§6Ｄ§eＭ§aＩ§bＮ §f{display_name}§c↣§b {msg}
+    nametag: §l§c♥ §l§e[§a{fac_name}§e]§c Ａ§6Ｄ§eＭ§aＩ§bＮ §f{display_name} §c♥
+    worlds: []
+  Owner:
+    chat: §l§e[§a{fac_name}§e]§c ＯＷＮＥＲ §f{display_name}§c↣§b {msg}
+    nametag: §l§c♥ §l§e[§a{fac_name}§e]§c ＯＷＮＥＲ §f{display_name} §c♥
+    worlds: []
+  OP:
+    chat: §l§e[§a{fac_name}§e]§c ＯＰ §a{display_name}§c↣§b {msg}
+    nametag: §l§c♥ §l§e[§a{fac_name}§e]§c ＯＰ §a{display_name}§c♥
+    worlds: []
+  Member:
+    chat: §7[§f{fac_name}§7] §9...⚫⇀Member↼⚫...§f{display_name}§7 ↣§f {msg}
+    nametag: §7[§f{fac_name}§7] §9...⚫⇀Member↼⚫...§f{display_name}
+    worlds: []
+  VipI:
+    chat: §l§e[§a{fac_name}§e]§b VIP §eI §f{display_name}§c↣§b {msg}
+    nametag: §l§c♥§e [§a{fac_name}§e]§b VIP I §f{display_name}§c ♥
+    worlds: []
+  VipII:
+    chat: §l§e[§a{fac_name}§e]§b VIP§e II §e{display_name}§c↣§b {msg}
+    nametag: §l§c♥§e [§a{fac_name}§e]§b VIP§e II §e{display_name}§c ♥
+    worlds: []
+  VipIII:
+    chat: §l§e[§a{fac_name}§e]§b VIP§e III §a{display_name}§c↣§b {msg}
+    nametag: §l§c♥§e [§a{fac_name}§e]§b VIP§e III §a{display_name}§c ♥
+    worlds: []
+  VipIV:
+    chat: §l§e[§a{fac_name}§e]§b VIP§e IV §d{display_name}§c↣§b {msg}
+    nametag: §l§c♥§e [§a{fac_name}§e]§b VIP§e IV §d{display_name}§c ♥
+    worlds: []
+  VipV:
+    chat: §l§e[§a{fac_name}§e]§b VIP§e V §6{display_name}§c↣§b {msg}
+    nametag: §l§c♥ §l§e[§a{fac_name}§e]§b VIP§e V §6{display_name} §c♥
+    worlds: []
+  Iron:
+    nametag: §l§f[§6{fac_name}§f] §l§e• §fIron§e • §l§b{display_name}
+    chat: §l§f[§6{fac_name}§f] §l§e•§fIron§e• §l§b{display_name} §l§a•» §7{msg}
+    worlds: []
+  Gold:
+    nametag: §l§b[§e{fac_name}§b] §l§a• §eGold§a • §l§b{display_name}
+    chat: §l§b[§e{fac_name}§b] §l§a• §eGold§a • §l§b{display_name} §l§a•» §6{msg}
+    worlds: []
+  Diamond:
+    nametag: §l§c[§a{fac_name}§c] §l§d⚒ §bDiamond§d ⚒ §l§a{display_name}
+    chat: §l§c[§a{fac_name}§c] §l§d⚒ §bDiamond§d ⚒ §l§a{display_name} §l§6•» §e{msg}
+    worlds: []
+  Emerald:
+    nametag: §l§c[§a{fac_name}§c] §l§d❖ §aEmerald§d ❖ §l§a{display_name}
+    chat: §l§c[§a{fac_name}§c] §l§d❖§a Emerald§d ❖ §l§a{display_name} §l§6•» §e{msg}
+    worlds: []
+  VipVI:
+    nametag: §l§c[§a{fac_name}§c] §l§e✰ §dVIP VI§d ✰ §l§a{display_name}
+    chat: §l§c[§a{fac_name}§c] §l§e✰ §dVIP VI§d ✰ §l§a{display_name} §l§6•» §e{msg}
+    worlds: []
+  VipVII:
+    nametag: §l§c[§6{fac_name}§c] §e༺§a VIP VII§e ༻ §l§f{display_name}
+    chat: §l§c[§6{fac_name}§c] §e༺§a VIP VII§e ༻ §l§f{display_name} §l§c↣§b {msg}
+    worlds: []
+  Coal:
+    nametag: §l§b[§e{fac_name}§b] §l§a• §7Coal§a • §l§b{display_name}
+    chat: §l§b[§e{fac_name}§b] §l§a• §7Coal§a • §l§b{display_name} §l§a•» §6{msg}
+  VipVIII:
+    nametag: §l§c[§6{fac_name}§c]§l§f ...§c♥§9⇀ §l§c VIP VIII§9 ↼§c♥§f...§a {display_name}
+    chat: §l§c[§6{fac_name}§c]§l§f ...§c♥§9⇀ §l§c VIP VIII§9 ↼§c♥§f...§a {display_name}§f
+      ↣§e {msg}
+  Police:
+    nametag: §l§f[§b{fac _name}§f]§e •§c POLICE §e•§7 {display_name}
+    chat: §l§f[§b{fac_name}§f]§e •§c POLICE §e•§7 {display_name}§3 ↣§a {msg}
+  Youtuber:
+    chat: §l§a[§e{fac_name}§a] §c✌§fY❍ʊ§cζʊβℰℜ§a๖ۣۜ §d{display_name} §6↣ §b{msg}
+    nametag: §l§a[§e{fac_name}§a] §c✌§fY❍ʊ§cζʊβℰℜ§a๖ۣۜ §d{display_name}
+  Helper:
+    chat: §l§a[§e{fac_name}§a] §b•§c…§d❖§aHεɭρεɾ§d❖§c…§b⚫ §d{display_name} §6↣ §b{msg}
+    nametag: §l§a[§e{fac_name}§a] §b•§c…§d❖§aHεɭρεɾ§d❖§c…§b⚫ §d{display_name}
+  MemberV:
+    nametag: §l§a[§e{fac_name}§a] §d§l ♣§c..§6» §bMember§e V §6«§c..§d♣§l§a {display_name}
+    chat: §l§a[§e{fac_name}§a] §d§l ♣§c..§6» §bMember§e V §6«§c..§d♣§l§a {display_name}§c→§b
+      {msg}
+  nung:
+    nametag: '&8&l[nung]&f&r {display_name}'
+    chat: '&8&l[nung]&f&r {display_name} &7> {msg}'
+  Guest:
+    nametag: '&8&l[Guest]&f&r {display_name}'
+    chat: '&8&l[Guest]&f&r {display_name} &7> {msg}'
+...

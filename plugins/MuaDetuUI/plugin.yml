@@ -1,0 +1,13 @@
+name: MuaDetuUI
+version: 3.0
+api: 3.0.0
+main: VanhLXYTB\MuaDetu\Main
+author: VanLXYTB
+
+commands:
+  buydetu:
+    description: "Lệnh Để Mua Đệ Tử"
+    aliases:
+    - muadetu
+    - mdt
+    - bdt

@@ -1,0 +1,13 @@
+name: Nick
+main: MDevPMMP\Nick\Main
+author: MDevPMMP
+version: 1.0.0
+api: 3.0.0
+commands:
+  nick:
+    description: Đổi tên.
+  unnick:
+    description: Xoá tên.
+permissions:
+  nick.command:
+    default: op

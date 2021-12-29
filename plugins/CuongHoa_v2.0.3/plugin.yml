@@ -1,0 +1,8 @@
+name: CuongHoa
+api: 3.0.0
+main: CH\Main
+version: 2.0.3
+author: PIG
+commands:
+  cuonghoa:
+   description: Cường Hóa 

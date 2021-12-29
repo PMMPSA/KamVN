@@ -1,0 +1,17 @@
+---
+Đất:
+  name: Đất
+  items:
+  - item:
+      id: 39
+    description: ""
+    buyPrice: 20
+    canSell: true
+    sellPrice: 0
+    imageType: -1
+    imagePath: ""
+  subcategories: []
+  private: false
+  imageType: -1
+  imagePath: ""
+...

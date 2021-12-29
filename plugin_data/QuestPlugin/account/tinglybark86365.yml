@@ -1,0 +1,9 @@
+---
+§b§lĐàoI:
+  start: 0
+  max: 1000
+  event: breakblock
+  info: §c§lPhá hủy 1000 khối
+  info-award: 1000 Xu
+  command-award: givemoney {player} 1000
+...

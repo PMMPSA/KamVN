@@ -1,0 +1,23 @@
+---
+§b§lĐàoI:
+  start: 414
+  max: 1000
+  event: breakblock
+  info: §c§lPhá hủy 1000 khối
+  info-award: 1000 Xu
+  command-award: givemoney {player} 1000
+§b§lĐàoII:
+  start: 414
+  max: 2000
+  event: breakblock
+  info: §c§lPhá hủy 2000 khối
+  info-award: 2000 xu
+  command-award: givemoney {player} 2000
+§b§lĐàoIII:
+  start: 414
+  max: 3000
+  event: breakblock
+  info: §c§lĐào 3000 khối
+  info-award: 3000 Xu
+  command-award: givemoney {player} 3000
+...

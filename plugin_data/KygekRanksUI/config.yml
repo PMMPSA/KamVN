@@ -1,0 +1,110 @@
+---
+# KygekRanksUI plugin
+# Made by Kygekraqmak
+
+##### DANGER ZONE #####
+# Do not change this (Only for internal use)!
+config-version: 1.3
+# If you encounter bugs set this to true to reset the config!
+reset: false
+#######################
+
+# Use "{player}" to show player's name
+# Use "&" as formatting codes
+# Use "\n" to break into new line
+
+##### COMMANDS #####
+# Set the command description of KygekRanksUI
+# Leave it empty if you want to use the default description
+command-description: "Quyền rank"
+# Set command aliases that will open KygekRanksUI when executed (Default command will always be /ranks)
+# Do not use "/" in front of the commands!
+# Leave it empty if you don't want to use aliases
+command-aliases: []
+####################
+
+# Title of the main form of KygekRanksUI
+# It will be shown right after the player typed the /ranks command
+title: "Quyền Lợi Rank"
+# Content of the main form of KygekRanksUI
+# You can add general info about the ranks below
+content: "§eQuyền lợi rank tại đây"
+# Return button to the main form of KygekRanksUI
+# It will be shown in the ranks form and applied globally
+return-button: "§bQuay Lại"
+# Exit button in the main form of KygekRanksUI
+exit-button: "§cThoát"
+# Whether to return to main form when ranks form closed (X button at upper right corner)
+return-to-main: true
+
+##### RANKS FORM FORMAT #####
+# ranks:                                              --> You will put the ranks menu button, title and content below here.
+#   ExampleRank:                                      --> This will just be the identifier for the code to work. You can put anything you like.
+#     menu-button: "ExampleRank"                      --> This will be the button of the rank that will be shown in the main form.
+#     button-image: "https://example.com/example.png" --> This will be the image shown beside the button in the main form.
+#     title: "ExampleRank"                            --> This will be the title of the rank that will be shown in the rank's form.
+#     content: "Change in config.yml!"                --> This will be the content of the rank that will be shown in the rank's form.
+#############################
+
+# Notes for button-image (not following this may not load the image):
+#
+# There are 2 modes (texture pack or link). If you want to use image from link, you must follow below:
+# - Image should be using the .png format.
+# - Image should be 160 x 160 px in size.
+# - Image should be displayed as raw (no HTML/CSS/JavaScript included).
+# - Link should include "http://" or "https://".
+# - Sometimes the image will not load properly, you may have to open status bar or press Windows key.
+# - For example, please visit https://kygekraqmak.github.io/downloads/css/test.png.
+#
+# If you want to use image from texture pack, please visit https://github.com/Kygekraqmak/default-textures for more info.
+#
+# Leave button-image empty if you don't want to use any image(s).
+
+# Change here:
+ranks:
+  Rank1:
+    menu-button: "VIPI"
+    button-image: ""
+    title: "Quyền VIP I"
+    content: "/fly : Bay Trên Cao"
+  Rank2:
+    menu-button: "VIPII"
+    button-image: ""
+    title: "Quyền VIPII"
+    content: "/fly : Bay trên cao \n /feed : Hồi Thức Ăn"
+  Rank3:
+    menu-button: "VIPIII"
+    button-image: ""
+    title: "Quyền VIPIII"
+    content: "/fly : Bay trên cao \n /feed : Hồi Thức Ăn \n /heal Hồi Máu \n /nick : Đổi Tên"
+  Rank4: 
+     menu-button: "VIPIV"
+     button-image: ""
+     title: "Quyền VIPIV"
+     content: "/fly : Bay trên cao \n /feed : Hồi Thức Ăn \n /heal : Hồi Máu \n /nick : Đổi Tên \n /vanish : Tàn Hình \n /spider : Leo tường"
+  Rank5:
+     menu-button: "VIPV"
+     title: "Quyền VIPV"
+     button-image: ""
+     content: "/fly : Bay trên cao \n /feed : Hồi Thức Ăn \n /heal : Hồi máu \n /nick : Đổi Tên \n /vanish : Tàn Hình \n /spider : Leo tường \n /size : Thay đổi kích thước"
+  Rank6:
+     menu-button: "VIPVI"
+     button-image: ""
+     title: "Quyền VIPVI"
+     content: "/fly : Bay trên cao \n /feed : Hồi Thức Ăn \n /heal : Hồi máu \n /nick : Đổi Tên \n /vanish : Tàn Hình \n /spider : Leo tường \n /size : Thay đổi kích thước"
+  Rank7:
+     menu-button: "VIPVII"
+     button-image: ""
+     title: "Quyền VIPVII"
+     content: "/fly : Bay trên cao \n /feed : Hồi Thức Ăn \n /heal : Hồi Máu \n /nick : Đổi Tên \n /vanish : Tàn Hình \n /spider : Leo tường \n /size : Thay đổi kích thước"
+  Rank8:
+     menu-button: "VIPVIII"
+     button-image: ""
+     title: "Quyền VIPVIII"
+     content: "/fly : Bay trên cao \n /feed : Hồi Thức Ăn \n /heal : Hồi Máu \n /nick : Đổi Tên \n /vanish : Tàn Hình \n /spider : Leo tường \n /size : Thay đổi kích thước"
+    
+  # You can add more if you need by following the format above
+
+# Whether to check for plugin updates (Recommended)
+check-updates: true
+...
